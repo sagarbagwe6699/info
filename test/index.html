@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="typing.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="timeline.css">
+    <script src="./splashscreen.js"></script>
+    <script src="./scroll.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body onload="welcome_screen()">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <div id="w-s" style="position: absolute; width: 100vw; height: 100vh; z-index: 100; transition: all 0.5s ease; background: #5a7fe7; color: #ffffff; animation-timing-function: ease-in-out;">
+        <div class="container">
+            <div class="row">
+                <div style="text-align: center; margin-top: 20%; font-size: 4rem" class="col">
+                    Hello :)
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="my-nav-bar">
+        <div>logo</div>
+        <div style="display: flex;">
+            <div class="my-nav-items">Home</div>
+        </div>
+    </div>
+
+    <!-- Top section -->
+
+    <img class="svg-rect" src="./images/download.svg" alt="bg">
+
+    <div class="container" style="margin-top: 20vh;">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="home-left">
+                    <p>Hello, I’m</p>
+                    <h1 style="line-height: 140%; font-weight: 800; letter-spacing: 1px;">Sagar Bagwe</h1>
+                    <div class="adjust typed-out">
+                        FULL STACK DEVELOPER | GRAD STUDENT
+                    </div>
+                    <button class="my-download-btn">
+                        Download resume
+                    </button>
+                    <div class="social-media-btns">
+                        <div class="sm-btn">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="sm-btn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="sm-btn">
+                            <i class="fa-solid fa-at"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-sm-block col-sm-7">
+                <div class="code-card code-card-position">
+                    <pre>1&nbsp;&nbsp;class <b>Person</b><!-- -->{</pre><pre>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() <!-- -->{</pre><pre>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Sagar Bagwe</b>";</pre><pre>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>DEV</b>", "<b>DESIGN</b>"];</pre><pre>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = <!-- -->new Date().getFullYear() - 1999;</pre><pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- -->}</pre><pre>7&nbsp;&nbsp;<!-- -->}</pre>
+                </div>
+            </div>
+
+        </div>
+        <!-- Top section ends -->
+
+
+        <div class="row">
+            <div class="col-sm-12" style="text-align: center; margin-top: 150px; color: #5b80e7; font-size: 28px; font-weight: 600;">
+                About Me
+            </div>
+            <div class="my-card">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img style="position: relative; top: -80px; border-radius: 200px; border: 0.5rem solid #ffffff; box-shadow: 1px 1px 4px #a2a2a266;" height="200px" width="200px" src="./images/download (1).jpeg" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        Hi, I'm Sagar Bagwe, a self-taught passionate developer from India, currently working at XYZ as a ABC. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur quo ullam iure ea saepe exercitationem quos est molestias temporibus. With a couple of years of experience as a Software Developer and Machine Learning Enthusiast, I aim to utilize my skills in a variety of technical and engineering related applications.
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- <div class="col-sm-12 mb-4">
+                        With a couple of years of experience as a Software Developer and Machine Learning Enthusiast, I aim to utilize my skills in a variety of technical and engineering related applications.
+                    </div> -->
+                    <!-- <hr> -->
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><i class="fa-solid fa-building"></i> <strong>City:</strong> Los Angeles, USA</li>
+                            <li><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> +1 (213) 551-8468</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><i class="fa-solid fa-cake-candles"></i> <strong>Age:</strong> 22</li>
+                            <li><i class="fa-solid fa-at"></i> <strong>Email: </strong>sbagwe@usc.edu</li>
+                        </ul>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="col-sm-12 mt-2">
+                        <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ut quo ex maxime impedit, ratione unde totam. Quidem perferendis deleniti reprehenderit soluta adipisci assumenda veniam minima laborum ea ratione optio doloremque, ut, rem quaerat, aliquid architecto! Omnis facere harum eveniet! -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600;">
+                Skillset
+            </div>
+        </div>
+
+            <div class="row d-flex justify-content-center align-items-center h-100 mt-4 mb-4">
+            <div class="col col-lg-9 col-xl-7">
+                <div class="card" style="border: none; background-color: #fff0;">
+                <div class="card-body p-5">
+        
+                    <figure class="text-center mb-0">
+                    <blockquote class="blockquote">
+                        <p class="pb-3">
+                        <i style="color: #969696;" class="fas fa-quote-left fa-xs"></i>
+                        <span class="lead font-italic">Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft.</span>
+                        <i style="color: #969696;" class="fas fa-quote-right fa-xs"></i>
+                        </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mb-0">
+                        Will Smith
+                    </figcaption>
+                    </figure>
+        
+                </div>
+                </div>
+            </div>
+            </div>
+
+        <!-- <div class="parallax"></div> -->
+
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="skillbar" data-percent="55%">
+                        <div class="skillbar-title">Web design</div>
+                        <div class="skill-bar-percent">55%</div>
+                        <div class="skillbar-bar" style="width: 55%;"></div>
+                    </div>
+    
+                    <div class="skillbar" data-percent="80%">
+                        <div class="skillbar-title">development</div>
+                        <div class="skill-bar-percent">80%</div>
+                        <div class="skillbar-bar" style="width: 80%;"></div>
+                    </div>
+    
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title">Photography</div>
+                        <div class="skill-bar-percent">40%</div>
+                        <div class="skillbar-bar" style="width: 40%;"></div>
+                    </div>
+    
+                    <div class="skillbar" data-percent="70%">
+                        <div class="skillbar-title">branding</div>
+                        <div class="skill-bar-percent">70%</div>
+                        <div class="skillbar-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600;">
+                Projects
+            </div>
+            <div class="row fadeInAnimation">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            Shuriken-Strike
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat delectus quia assumenda, dolore expedita voluptas aliquid amet quod voluptatibus vel ab nostrum in repellat non, blanditiis ratione. Impedit iusto odio sed? Facilis ducimus dolorem velit! Aut, recusandae qui? Reprehenderit impedit, dolorum totam nostrum odio molestias natus consequatur a fugit.
+                        </div>
+                        <div class="see-more">
+                            <a href="#">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-unity"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-solid fa-c"></i><i class="fa-solid fa-hashtag"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-figma"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LwFsxgZ5oFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row fadeInAnimation">
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video-inverted">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kn7lwJoYfuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            C programing Exam portal
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat delectus quia assumenda, dolore expedita voluptas aliquid amet quod voluptatibus vel ab nostrum in repellat non, blanditiis ratione. Impedit iusto odio sed? Facilis ducimus dolorem velit! Aut, recusandae qui? Reprehenderit impedit, dolorum totam nostrum odio molestias natus consequatur a fugit.
+                        </div>
+                        <div class="see-more">
+                            <a href="#">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-node"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-python"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-react"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600; margin-bottom: 50px;">
+                Timeline
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <a href="#" class="timeline">
+                            <div style="border: 3px solid #5b80e7" class="timeline-icon">
+                                <i style="background: #5b80e7;" class="fa-solid fa-building-columns"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title" style="color: #5b80e7;">University of Southern California, Los Angeles, CA
+                                <br>    
+                                (2021)</h3>
+                                <p class="description">
+                                    Currently a graduate student at University of Southern California, completing my masters of science in computer science.
+                                    <br>
+                                    Courses: Algorithms, Database management, Game development, Web development
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div style="border: 3px solid #5b80e7;" class="timeline-icon">
+                                <i style="background: #5b80e7;" class="fa fa-globe"></i></div>
+                            <div class="timeline-content">
+                                <h3 style="color: #5b80e7;" class="title">Web developer Intern, India
+                                    <br>
+                                    (2019)</h3>
+                                <p class="description">
+                                    A 3 month internship where I got a chance to design the schema for maintaining and storing strategies used for algorithmic trading and develop an e-commerce portal for their customers.
+                                    <br>
+                                    Technologies used - Mongoose for MongoDB, ReactJS and Express.JS
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><i class="fa-solid fa-book"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Dwarkadas J. Sanghvi College of Engineering, Mumbai, India
+                                <br>
+                                    (2017)</h3>
+                                <p class="description">
+                                    Completed Bachelor of Computer Engineering with Distinction (CGPA: 9.56/10)
+                                    <br>
+                                    Relevant Courses: Data Structures, Analysis of Algorithms, Machine Learning, Artificial Intelligence, Big Data Analytics
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-me">
+                <div class="my-card-blue">
+                    <div class="row justify-content-center">
+                        <div style="font-size: 2rem; text-align: center;" class="col-6">
+                            Get in touch
+                        </div>
+                        <div style="text-align: center; margin-top: 20px" class="col-sm-12">
+                            I'm seeking out opportunities to work with companies / agencies. I want to bring my innovative thinking to the table where I can learn and solve real business-problems.
+                        </div>
+                        <div class="col-sm-6">
+                            <button class="my-download-btn-lower">
+                                Say hello!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="my-footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div style="text-align: center;" class="col-sm-12">
+                    <h1 style="line-height: 140%; font-weight: 800; letter-spacing: 1px;">Sagar Bagwe</h1>
+                    <div style="justify-content: center;" class="social-media-btns">
+                        <div class="sm-btn">
+                            <i style="color: #2125296b;" class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="sm-btn">
+                            <i style="color: #2125296b;" class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="sm-btn">
+                            <i style="color: #2125296b;" class="fa-solid fa-at"></i>
+                        </div>
+                    </div>
+                    <div style="color: #2125296b;">© 2021 Sagar Mahesh Bagwe. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
