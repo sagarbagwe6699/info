@@ -25,23 +25,25 @@
   <body onload="welcome_screen()">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <div id="w-s" style="position: absolute; width: 100vw; height: 100vh; z-index: 100; transition: all 0.5s ease; background: #5a7fe7; color: #ffffff; animation-timing-function: ease-in-out;">
+    <div id="w-s" style="position: absolute; top: 0; width: 100vw; height: 100vh; z-index: 100; transition: all 0.5s ease; background: #5a7fe7; color: #ffffff; animation-timing-function: ease-in-out;">
         <div class="container">
             <div class="row">
                 <div style="text-align: center; margin-top: 20%; font-size: 4rem" class="col">
-                    Hello :)
+                    
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="my-nav-bar">
-        <div>logo</div>
+    <!-- <div class="my-nav-bar">
+        <div>
+            <img src="./images/logo.png" alt="">
+        </div>
         <div style="display: flex;">
             <div class="my-nav-items">Home</div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Top section -->
 
@@ -57,7 +59,7 @@
                         FULL STACK DEVELOPER | GRAD STUDENT
                     </div>
                     <button class="my-download-btn">
-                        Download resume
+                        Download Resume
                     </button>
                     <div class="social-media-btns">
                         <div class="sm-btn">
@@ -88,18 +90,24 @@
             </div>
             <div class="my-card">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <img style="position: relative; top: -80px; border-radius: 200px; border: 0.5rem solid #ffffff; box-shadow: 1px 1px 4px #a2a2a266;" height="200px" width="200px" src="./images/download (1).jpeg" alt="">
+                    <div class="col-lg-3" style="display: flex; justify-content: center;">
+                        <img style="position: relative; margin-bottom: 20px; border-radius: 200px; border: 0.5rem solid #ffffff; box-shadow: 1px 1px 4px #a2a2a266;" height="200px" width="200px" src="./images/Sagar_Bagwe.png" alt="">
                     </div>
-                    <div class="col-sm-9">
-                        Hi, I'm Sagar Bagwe, a self-taught passionate developer from India, currently working at XYZ as a ABC. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur quo ullam iure ea saepe exercitationem quos est molestias temporibus. With a couple of years of experience as a Software Developer and Machine Learning Enthusiast, I aim to utilize my skills in a variety of technical and engineering related applications.
+                    <div class="col-lg-9" style="color: #6a6a6ac2;">
+                        I am <strong>Sagar</strong>, a grad student from USC pursuing my Master's in Computer Science.
+                        <br>
+                        Previously, I have successfully completed internships as a <strong>Software Engineer</strong> and a <strong>Web Developer</strong>. Apart from this, I have also worked on a few projects dealing with <strong>Image Processing, Machine Learning, IOS App development</strong>, etc. This has given me hands-on experience in developing end-to-end applications.
+                        <br>
+                        Besides my technical skills, I would describe myself as a driven and hardworking individual. I am passionate about my work and like to be continuously challenged so I have something to strive towards. I’m very communicative, detail-oriented and like to think of myself as a team player.
+                        <br>
+                        I aim to utilize my skills in a variety of technical and engineering related applications.
                     </div>
                 </div>
                 <div class="row">
                     <!-- <div class="col-sm-12 mb-4">
                         With a couple of years of experience as a Software Developer and Machine Learning Enthusiast, I aim to utilize my skills in a variety of technical and engineering related applications.
                     </div> -->
-                    <!-- <hr> -->
+                    <hr style="margin-top: 15px; margin-bottom: 40px;">
                     <div class="col-sm-6">
                         <ul>
                             <li><i class="fa-solid fa-building"></i> <strong>City:</strong> Los Angeles, USA</li>
@@ -108,14 +116,12 @@
                     </div>
                     <div class="col-sm-6">
                         <ul>
-                            <li><i class="fa-solid fa-cake-candles"></i> <strong>Age:</strong> 22</li>
+                            <li><i class="fa-solid fa-cake-candles"></i> <strong>Age:</strong> 23</li>
                             <li><i class="fa-solid fa-at"></i> <strong>Email: </strong>sbagwe@usc.edu</li>
                         </ul>
                     </div>
                     <!-- <hr> -->
-                    <div class="col-sm-12 mt-2">
-                        <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ut quo ex maxime impedit, ratione unde totam. Quidem perferendis deleniti reprehenderit soluta adipisci assumenda veniam minima laborum ea ratione optio doloremque, ut, rem quaerat, aliquid architecto! Omnis facere harum eveniet! -->
-                    </div>
+                    <div class="col-sm-12 mt-2"></div>
                 </div>
             </div>
         </div>
@@ -128,6 +134,8 @@
             </div>
         </div>
 
+        
+
             <div class="row d-flex justify-content-center align-items-center h-100 mt-4 mb-4">
             <div class="col col-lg-9 col-xl-7">
                 <div class="card" style="border: none; background-color: #fff0;">
@@ -136,9 +144,9 @@
                     <figure class="text-center mb-0">
                     <blockquote class="blockquote">
                         <p class="pb-3">
-                        <i style="color: #969696;" class="fas fa-quote-left fa-xs"></i>
-                        <span class="lead font-italic">Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft.</span>
-                        <i style="color: #969696;" class="fas fa-quote-right fa-xs"></i>
+                        <i style="color: #e4e4e4; font-size: 4rem;" class="fas fa-quote-left fa-xs"></i>
+                        <span class="lead font-italic">&nbsp; Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft.</span>
+                        <!-- <i style="color: #969696;" class="fas fa-quote-right fa-xs"></i> -->
                         </p>
                     </blockquote>
                     <figcaption class="blockquote-footer mb-0">
@@ -155,29 +163,97 @@
 
         <div class="wrapper">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-4">
                     <div class="skillbar" data-percent="55%">
-                        <div class="skillbar-title">Web design</div>
-                        <div class="skill-bar-percent">55%</div>
-                        <div class="skillbar-bar" style="width: 55%;"></div>
+                        <div class="skillbar-title"><i class="fa-solid fa-code"></i> C/C++</div>
+                        <div class="skill-bar-percent">85%</div>
+                        <div class="skillbar-bar" style="width: 85%;"></div>
                     </div>
     
                     <div class="skillbar" data-percent="80%">
-                        <div class="skillbar-title">development</div>
+                        <div class="skillbar-title"><i class="fa-brands fa-python"></i> Python</div>
                         <div class="skill-bar-percent">80%</div>
                         <div class="skillbar-bar" style="width: 80%;"></div>
                     </div>
     
                     <div class="skillbar" data-percent="40%">
-                        <div class="skillbar-title">Photography</div>
-                        <div class="skill-bar-percent">40%</div>
-                        <div class="skillbar-bar" style="width: 40%;"></div>
+                        <div class="skillbar-title"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
                     </div>
-    
-                    <div class="skillbar" data-percent="70%">
-                        <div class="skillbar-title">branding</div>
-                        <div class="skill-bar-percent">70%</div>
-                        <div class="skillbar-bar" style="width: 70%;"></div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-java"></i> Java</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-node"></i> Node.js</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-database"></i> MySQL</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-flask"></i> Flask</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-code"></i> Django</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-microchip"></i> Keras</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+                    
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-file-code"></i> TypeScript</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-react"></i> React</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-angular"></i> Angular</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-app-store-ios"></i> SwiftUI</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-database"></i> MongDB</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
                     </div>
                 </div>
             </div>
@@ -188,6 +264,7 @@
             <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600;">
                 Projects
             </div>
+
             <div class="row fadeInAnimation">
                 <div class="col-sm-12 col-lg-8">
                     <div class="my-card p-sm-5" style="color: #383838;">
@@ -195,7 +272,7 @@
                             Shuriken-Strike
                         </div>
                         <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat delectus quia assumenda, dolore expedita voluptas aliquid amet quod voluptatibus vel ab nostrum in repellat non, blanditiis ratione. Impedit iusto odio sed? Facilis ducimus dolorem velit! Aut, recusandae qui? Reprehenderit impedit, dolorum totam nostrum odio molestias natus consequatur a fugit.
+                            A Ninja theme-based strategic shooting game with over 20+ levels and fascinating powerups. The game requires the player to eliminate all the enemies in a single shot at every level. With more than one correct way to clear the level, every level is open to exploration by the player. The game comes with an interactive, in-game and easy-to-understand tutorial for players.
                         </div>
                         <div class="see-more">
                             <a href="#">
@@ -225,12 +302,10 @@
                 
                 <div class="d-none d-lg-block col-md-4">
                     <div class="my-card my-video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LwFsxgZ5oFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/oP8nWD2tXxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-
-
 
             <div class="row fadeInAnimation">
                 <div class="d-none d-lg-block col-md-4">
@@ -244,7 +319,7 @@
                             C programing Exam portal
                         </div>
                         <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat delectus quia assumenda, dolore expedita voluptas aliquid amet quod voluptatibus vel ab nostrum in repellat non, blanditiis ratione. Impedit iusto odio sed? Facilis ducimus dolorem velit! Aut, recusandae qui? Reprehenderit impedit, dolorum totam nostrum odio molestias natus consequatur a fugit.
+                            A web app that gives a paperless solution for conducting exams for sophomore students of Dwarkadas J Sanghvi College of Engineering, Mumbai, India. The portal allows instructors to create question papers and exams along with an interface to grade them. While the app supports auto-grading, it provides an interface for the instructors to review the papers. It also supports a student-side portal equipped with an online editor and a compiler.
                         </div>
                         <div class="see-more">
                             <a href="#">
@@ -273,6 +348,84 @@
                 </div>
             </div>
 
+            <div class="row fadeInAnimation">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            Stacked ensembling approach for COVID-19 detection
+                        </div>
+                        <div>
+                            A novel approach for early diagnosis of COVID-19 using X-ray images. This uses stacked ensembling to harness the power of four convolutional neural networks to predict the results. The approach also includes the generation of synthetic COVID-19 X-rays using generative networks to make up for the data imbalance. For details on the approach can be found in the paper published in Springer journal linked below.
+                        </div>
+                        <div class="see-more">
+                            <a href="#">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-solid fa-microchip"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-python"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video">
+                        <img src="./images/xray.png" style="width: 100%; height: 100%" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row fadeInAnimation">
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video-inverted">
+                        <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=WUPOizIaicQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <img src="./images/stocks_1.png" style="width: 100%; height: 100%" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            Stocks Portfolio App
+                        </div>
+                        <div>
+                            An IOS app that lets you create and manage a stock portfolio for yourself. The app supports real-time updates on stock prices, useful visualizations and the concept of a virtual wallet that enables you to keep complete track of your portfolio. The app also shows some handy metrics and recommendations for the stocks you have bought or are on your wishlist. Lastly, you can also see the latest news on the stocks you have bought or selected directly within the app.
+                        </div>
+                        <div class="see-more">
+                            <a href="#">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-app-store"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-node-js"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600; margin-bottom: 50px;">
                 Timeline
             </div>
@@ -280,6 +433,23 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-timeline">
+                        <a href="#" class="timeline">
+                            <div style="border: 3px solid #5b80e7;" class="timeline-icon">
+                                <i style="background: #5b80e7;" class="fa fa-globe"></i></div>
+                            <div class="timeline-content">
+                                <h3 style="color: #5b80e7;" class="title">
+                                    C3 AI
+                                    <br>
+                                    Software Engineer Intern, San Francisco
+                                    <br>
+                                    (2022)</h3>
+                                <p class="description">
+                                    A 3 month Internship as a Software Engineer working on building an application dealing with ESG (Enivornmental Social Governance)
+                                    <br>
+                                    Technologies used - React, TypeScript, C3 AI develpment platform
+                                </p>
+                            </div>
+                        </a>
                         <a href="#" class="timeline">
                             <div style="border: 3px solid #5b80e7" class="timeline-icon">
                                 <i style="background: #5b80e7;" class="fa-solid fa-building-columns"></i></div>
@@ -298,7 +468,10 @@
                             <div style="border: 3px solid #5b80e7;" class="timeline-icon">
                                 <i style="background: #5b80e7;" class="fa fa-globe"></i></div>
                             <div class="timeline-content">
-                                <h3 style="color: #5b80e7;" class="title">Web developer Intern, India
+                                <h3 style="color: #5b80e7;" class="title">
+                                    Stratzy
+                                    <br>
+                                    Web developer Intern, India
                                     <br>
                                     (2019)</h3>
                                 <p class="description">
@@ -327,7 +500,7 @@
             <div class="contact-me">
                 <div class="my-card-blue">
                     <div class="row justify-content-center">
-                        <div style="font-size: 2rem; text-align: center;" class="col-6">
+                        <div style="font-size: 2rem; text-align: center;" class="col-sm-12">
                             Get in touch
                         </div>
                         <div style="text-align: center; margin-top: 20px" class="col-sm-12">

@@ -37,7 +37,7 @@ ul {
 .svg-rect {
     width: 40%;
     position: absolute;
-    top: 50px;
+    top: 0px;
     right: 0px;
     z-index: -1;
 }
@@ -134,7 +134,6 @@ ul {
 }
 
 .my-card-blue{
-    padding: 30px 80px;
     border-radius: 10px;
     /* box-shadow: #5b80e7d9 -1px 4px 10px; */
     box-shadow: #5959593b -1px 4px 10px;
@@ -142,6 +141,7 @@ ul {
     margin-bottom: 30px;
     background: #5b80e7;
     color: #fff;
+    padding: 7% 6%;
 }
 
 .parallax {
@@ -212,8 +212,8 @@ ul {
     }
     
     .skillbar-title {
-        color: #323232;
-        font-size: 11px;
+        color: #7c7c7c;
+        font-size: 14px;
         font-weight: 600;
         text-transform: uppercase;
         display: inline-block;
