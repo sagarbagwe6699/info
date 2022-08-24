@@ -1,0 +1,16 @@
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 1.2s steps(40, end) forwards, blinking 1s infinite;
+    width: 0;
+    margin-bottom: 10px;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: #5b80e7; }
+  }

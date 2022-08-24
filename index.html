@@ -1,268 +1,568 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Sagar Bagwe</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script>
-			function send_mail(e){
-				e.preventDefault()
-				console.log(e)
-				window.location.href = "mailto:sbagwe@usc.edu"
-			}
-		</script>
-	</head>
-	<body class="is-preload landing">
-		<div id="page-wrapper">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">Sagar Bagwe</a></h1>
-					<nav id="nav">
-						<ul>
-							<!-- <li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li> -->
-							<li><a href="https://github.com/sagarbagwe6699/info/raw/master/Sagar_Mahesh_Bagwe_Resume.pdf" class="button primary">Download Resume</a></li>
-						</ul>
-					</nav>
-				</header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap" rel="stylesheet">
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2><span style="color: #e5556d">Hi</span>, I am Sagar</h2>
-							<p>A <span style="color: #e5556d">Developer</span> and a <span style="color: #e5556d">Student</span> <br />
-							building delightfully awesome things.</p>
-						</header>
-						<span class="image"><img src="images/profile_pic.jpg" alt="" /></span>
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/puzzle.jpg" alt="" /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>A little bit about me ...</h2>
-										<h1>Developer | Grad student <span style="color: #e5556d"> <a href="https://www.usc.edu/">@USC</a></span></h1>
-									</header>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>Hi, I’m Sagar, a developer building delightfully awesome things.
-									<br>
-									Since I was young, I have always enjoyed solving puzzles. So that's how I look at computers;
-									</p>
-									<!-- <p>Currently a grad student @USC</p> -->
-								</div>
-								<!-- Since I was young, I have always enjoyed to solve puzzles. So that’s how I look at big data sets: to me it is one big puzzle I want to solve. Finding patterns nobody else sees is the challenge to me. You can scroll down to find out more about me, have a look at some things I’ve built -->
-								<div class="col-4 col-12-medium">
-									<p>To me it is one big puzzzle where you have to find the correct set of instructions to get the job done efficiently. Finding such patterns/instructions which no one else sees is the challenge to me.
-									<br>
-									<b>Scroll down</b> to find out more about me, have a look at <b>some of my recent projects</b>
-									</p>
-								</div>
-								<!-- <div class="col-4 col-12-medium">
-									<div></div>
-								</div>
-								<div class="col-4 col-12-medium">
-									<div>My work</div>
-								</div>
-								<div class="col-4 col-12-medium">
-									<div></div>
-								</div> -->
-							</div>
-						</div>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
 
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/xray.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Stacked ensembling approach for COVID-19 detection using X-ray images</h2>
-							<p>
-								<a href="https://link.springer.com/article/10.1007%2Fs13246-020-00952-6">Springer's Journal of "Physical and Engineering Sciences in Medicine"</a>
-							</p>
-						</header>
-						<p>COVID-19 Detection using a novel approach  which incorporates Generative networks, Transfer Learning and Stacked Generalization, aiming to lower the False Negative rate of classification compensating for the <i>30% False Negative rate of the swab tests</i>. </p>
-						<ul class="actions">
-							<li><a href="https://link.springer.com/article/10.1007%2Fs13246-020-00952-6" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="typing.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="timeline.css">
+    <script src="./splashscreen.js"></script>
+    <script src="./scroll.js"></script>
+    <title>Sagar Bagwe | Portfolio</title>
+  </head>
+  <body onload="welcome_screen()">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/writing.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Synthetic Handwrting generation</h2>
-							<p style="color: #e5556d">A project aiming to genrate synthetic handwriting using CNN and Generative networks, replicating the handwriting features of an author.</p>
-						</header>
-						<p>Designed an algorithm that can generate desired synthetic handwriting text in a given style. This algorithm uses offline input data and hence does not require any digital input devices such as tables for data collection.
-						</p>
-						Use cases:
-						<ol>
-							<li>Reconstructing historic documents</li>
-							<li>Writer identification</li>
-							<li>Fake document detection</li>
-						</ol>
-						<!-- <ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul> -->
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
-				<section id="four" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/classroom.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>C programming Exam Portal</h2>
-							<p>
-								<a href="https://www.youtube.com/watch?v=kn7lwJoYfuU">
-									Examination portal for DJSCE College of Engineering, Mumbai University
-								</a>
-							</p>
-						</header>
-						<p>
-							A paperless solution of conducting exams of over 600+ students, equiped with
-							semi-automated paper correction reducing the correction time by 55%.
-						</p>
-						<ul class="actions">
-							<li><a href="https://www.youtube.com/watch?v=kn7lwJoYfuU" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#five" class="goto-next scrolly">Next</a>
-				</section>
+    <div id="w-s" style="position: absolute; top: 0; width: 100vw; height: 100vh; z-index: 100; transition: all 0.5s ease; background: #5a7fe7; color: #ffffff; animation-timing-function: ease-in-out;">
+        <div class="container">
+            <div class="row">
+                <div style="text-align: center; margin-top: 20%; font-size: 4rem" class="col">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
-			<!-- Four -->
-				<section id="five" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>Techinal Skills</h2>
-							<blockquote>
-								❝ Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft. ❞
-								<br>
-								- Will Smith
-							</blockquote>
-							<!-- <p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p> -->
-						</header>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon brands alt major fab fa-java"></span>
-									<h3>Programming Languages</h3>
-									<p>Python, Javascript, Java, C, C++, HTML/CSS </p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fab fa-code"></span>
-									<h3>Frameworks</h3>
-									<p>Apache Spark, TensorFlow, Keras, OpenCV, ReactJS, NodeJS</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-database"></span>
-									<h3>Databases</h3>
-									<p>MySQL, MongoDB, PostgreSQL</p>
-								</section>
-								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-laptop"></span>
-									<h3>Softwares</h3>
-									<p>AutoCAD, Adobe Photoshop, Adobe Illustrator, Adobe XD, MS Office</p>
-								</section>
-								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-plus"></span>
-									<h3>Other</h3>
-									<p>Anaconda, Git, GitHub, Jupyter Notebook, Google Colab, REST APIs, Linux, MacOS, Windows</p>
-								</section>
-								<!-- <section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-lock"></span>
-									<h3>Skills 6</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section> -->
-							</div>
-						</div>
-						<footer class="major">
-							<ul class="actions special">
-								<li><a href="https://github.com/sagarbagwe6699/info/raw/master/Sagar_Mahesh_Bagwe_Resume.pdf" class="button">Download Resume</a></li>
-							</ul>
-						</footer>
-					</div>
-				</section>
 
-			<!-- Five -->
-				<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>Get in touch</h2>
-							<p>I'm seeking out opportunities to work with companies / agencies. I want to bring my innovative thinking to the table where I can learn and solve real business-problems.</p>
-						</header>
-						<form method="post" action="mailto:sbagwe@usc.edu" class="cta">
-							<div class="row gtr-uniform gtr-50">
-								<!-- <div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div> -->
-								<div class="col-12 col-12-xsmall"><input type="submit" value="Say Hello" onclick="send_mail" class="fit primary" /></div>
-							</div>
-						</form>
-					</div>
-				</section>
+    <!-- <div class="my-nav-bar">
+        <div>
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div style="display: flex;">
+            <div class="my-nav-items">Home</div>
+        </div>
+    </div> -->
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
-						<li><a href="https://www.linkedin.com/in/sagar-bagwe/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/sagarbagwe6699" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:sbagwe@usc.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="https://www.instagram.com/sagarbagwe6699/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.facebook.com/sagar.bagwe.338" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; 2021 Sagar Mahesh Bagwe. All rights reserved.</li>
-					</ul>
-				</footer>
+    <!-- Top section -->
 
-		</div>
+    <img class="svg-rect" src="./images/download.svg" alt="bg">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <div class="container" style="margin-top: 20vh;">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="home-left">
+                    <p>Hello, I’m</p>
+                    <h1 style="line-height: 140%; font-weight: 800; letter-spacing: 1px;">Sagar Bagwe</h1>
+                    <div class="adjust typed-out">
+                        FULL STACK DEVELOPER | GRAD STUDENT
+                    </div>
+                    <a href="https://github.com/sagarbagwe6699/info/raw/master/Resume_Sagar_Bagwe.pdf" class="button primary">
+                        <button class="my-download-btn">
+                            Download Resume
+                        </button>
+                    </a>
+                    <div class="social-media-btns">
+                        <a href="https://github.com/sagarbagwe6699">
+                            <div class="sm-btn">
+                                    <i class="fa-brands fa-github"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sagar-bagwe">
+                            <div class="sm-btn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </a>
+                        <a href="mailto:sbagwe@usc.edu">
+                            <div class="sm-btn">
+                                <i class="fa-solid fa-at"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-sm-block col-sm-7">
+                <div class="code-card code-card-position">
+                    <pre>1&nbsp;&nbsp;class <b>Person</b><!-- -->{</pre><pre>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() <!-- -->{</pre><pre>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Sagar Bagwe</b>";</pre><pre>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>DEV</b>", "<b>DESIGN</b>"];</pre><pre>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = <!-- -->new Date().getFullYear() - 1999;</pre><pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- -->}</pre><pre>7&nbsp;&nbsp;<!-- -->}</pre>
+                </div>
+            </div>
 
-	</body>
+        </div>
+        <!-- Top section ends -->
+
+
+        <div class="row">
+            <div class="col-sm-12" style="text-align: center; margin-top: 150px; color: #5b80e7; font-size: 28px; font-weight: 600;">
+                About Me
+            </div>
+            <div class="my-card">
+                <div class="row">
+                    <div class="col-lg-3" style="display: flex; justify-content: center;">
+                        <img style="position: relative; margin-bottom: 20px; border-radius: 200px; border: 0.5rem solid #ffffff; box-shadow: 1px 1px 4px #a2a2a266;" height="200px" width="200px" src="./images/Sagar_Bagwe.png" alt="">
+                    </div>
+                    <div class="col-lg-9" style="color: #6a6a6ac2;">
+                        I am <strong>Sagar</strong>, a grad student from University of Southern California <strong>(USC)</strong> pursuing my Masters in Computer Science.
+                        <br>
+                        Previously, I have successfully completed internships as a <strong>Software Engineer</strong> and a <strong>Web Developer</strong>. Apart from this, I have also worked on a few projects dealing with <strong>Image Processing, Machine Learning, IOS App development</strong>, etc. This has given me hands-on experience in developing end-to-end applications.
+                        <br>
+                        Besides my technical skills, I would describe myself as a driven and hardworking individual. I am passionate about my work and like to be continuously challenged so I have something to strive towards. I’m very communicative, detail-oriented and like to think of myself as a team player.
+                        <br>
+                        I aim to utilize my skills in a variety of technical and engineering related applications.
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- <div class="col-sm-12 mb-4">
+                        With a couple of years of experience as a Software Developer and Machine Learning Enthusiast, I aim to utilize my skills in a variety of technical and engineering related applications.
+                    </div> -->
+                    <hr style="margin-top: 15px; margin-bottom: 40px; color: #3b3b3b;">
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><i class="fa-solid fa-building"></i> <strong>City:</strong> Los Angeles, USA</li>
+                            <li><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> +1 (213) 551-8468</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><i class="fa-solid fa-cake-candles"></i> <strong>Age:</strong> 23</li>
+                            <li><i class="fa-solid fa-at"></i> <strong>Email: </strong>sbagwe@usc.edu</li>
+                        </ul>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="col-sm-12 mt-2"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600;">
+                Skillset
+            </div>
+        </div>
+
+        
+
+            <div class="row d-flex justify-content-center align-items-center h-100 mt-4 mb-4">
+            <div class="col col-lg-9 col-xl-7">
+                <div class="card" style="border: none; background-color: #fff0;">
+                <div class="card-body p-5">
+        
+                    <figure class="text-center mb-0">
+                    <blockquote class="blockquote">
+                        <p class="pb-3">
+                        <i style="color: #e4e4e4; font-size: 4rem;" class="fas fa-quote-left fa-xs"></i>
+                        <span class="lead font-italic">&nbsp; Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft.</span>
+                        <!-- <i style="color: #969696;" class="fas fa-quote-right fa-xs"></i> -->
+                        </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mb-0">
+                        Will Smith
+                    </figcaption>
+                    </figure>
+        
+                </div>
+                </div>
+            </div>
+            </div>
+
+        <!-- <div class="parallax"></div> -->
+
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skillbar" data-percent="75%">
+                        <div class="skillbar-title"><i class="fa-solid fa-code"></i> C/C++</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+    
+                    <div class="skillbar" data-percent="85%">
+                        <div class="skillbar-title"><i class="fa-brands fa-python"></i> Python</div>
+                        <div class="skill-bar-percent">85%</div>
+                        <div class="skillbar-bar" style="width: 80%;"></div>
+                    </div>
+    
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-java"></i> Java</div>
+                        <div class="skill-bar-percent">70%</div>
+                        <div class="skillbar-bar" style="width: 70%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-node"></i> Node.js</div>
+                        <div class="skill-bar-percent">70%</div>
+                        <div class="skillbar-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-database"></i> MySQL</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-flask"></i> Flask</div>
+                        <div class="skill-bar-percent">60%</div>
+                        <div class="skillbar-bar" style="width: 60%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-code"></i> Django</div>
+                        <div class="skill-bar-percent">65%</div>
+                        <div class="skillbar-bar" style="width: 65%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-microchip"></i> Keras</div>
+                        <div class="skill-bar-percent">75%</div>
+                        <div class="skillbar-bar" style="width: 75%;"></div>
+                    </div>
+                    
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-file-code"></i> TypeScript</div>
+                        <div class="skill-bar-percent">80%</div>
+                        <div class="skillbar-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-react"></i> React</div>
+                        <div class="skill-bar-percent">95%</div>
+                        <div class="skillbar-bar" style="width: 95%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-angular"></i> Angular</div>
+                        <div class="skill-bar-percent">85%</div>
+                        <div class="skillbar-bar" style="width: 85%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                        <div class="skill-bar-percent">90%</div>
+                        <div class="skillbar-bar" style="width: 90%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-brands fa-app-store-ios"></i> SwiftUI</div>
+                        <div class="skill-bar-percent">60%</div>
+                        <div class="skillbar-bar" style="width: 60%;"></div>
+                    </div>
+
+                    <div class="skillbar" data-percent="40%">
+                        <div class="skillbar-title"><i class="fa-solid fa-database"></i> MongDB</div>
+                        <div class="skill-bar-percent">70%</div>
+                        <div class="skillbar-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600;">
+                Projects
+            </div>
+
+            <div class="row fadeInAnimation">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            Shuriken-Strike
+                        </div>
+                        <div>
+                            A Ninja theme-based strategic shooting game with over 20+ levels and fascinating powerups. The game requires the player to eliminate all the enemies in a single shot at every level. With more than one correct way to clear the level, every level is open to exploration by the player. The game comes with an interactive, in-game and easy-to-understand tutorial for players.
+                        </div>
+                        <div class="see-more">
+                            <a href="https://www.youtube.com/embed/oP8nWD2tXxI">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-unity"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-solid fa-c"></i><i class="fa-solid fa-hashtag"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-figma"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="https://www.youtube.com/embed/oP8nWD2tXxI">
+                                    <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video">
+                        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/oP8nWD2tXxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row fadeInAnimation">
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video-inverted">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kn7lwJoYfuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            C programming Exam portal
+                        </div>
+                        <div>
+                            A web app that gives a paperless solution for conducting exams for sophomore students of Dwarkadas J Sanghvi College of Engineering, Mumbai, India. The portal allows instructors to create question papers and exams along with an interface to grade them. While the app supports auto-grading, it provides an interface for the instructors to review the papers. It also supports a student-side portal equipped with an online editor and a compiler.
+                        </div>
+                        <div class="see-more">
+                            <a href="https://www.youtube.com/embed/kn7lwJoYfuU">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-node-js"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-python"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-react"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="https://www.youtube.com/embed/kn7lwJoYfuU">
+                                    <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row fadeInAnimation">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            Stacked ensembling approach for COVID-19 detection
+                        </div>
+                        <div>
+                            A novel approach for early diagnosis of COVID-19 using X-ray images. This uses stacked ensembling to harness the power of four convolutional neural networks to predict the results. The approach also includes the generation of synthetic COVID-19 X-rays using generative networks to make up for the data imbalance. For details on the approach can be found in the paper published in Springer journal linked below.
+                        </div>
+                        <div class="see-more">
+                            <a href="https://link.springer.com/article/10.1007/s13246-020-00952-6">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-solid fa-microchip"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-python"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="https://link.springer.com/article/10.1007/s13246-020-00952-6">
+                                    <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video">
+                        <img src="./images/xray.png" style="width: 100%; height: 100%" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row fadeInAnimation">
+                <div class="d-none d-lg-block col-md-4">
+                    <div class="my-card my-video-inverted">
+                        <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=WUPOizIaicQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <img src="./images/stocks_1.png" style="width: 100%; height: 100%" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-card p-sm-5" style="color: #383838;">
+                        <div class="my-title">
+                            Stocks Portfolio App
+                        </div>
+                        <div>
+                            An IOS app that lets you create and manage a stock portfolio for yourself. The app supports real-time updates on stock prices, useful visualizations and the concept of a virtual wallet that enables you to keep complete track of your portfolio. The app also shows some handy metrics and recommendations for the stocks you have bought or are on your wishlist. Lastly, you can also see the latest news on the stocks you have bought or selected directly within the app.
+                        </div>
+                        <div class="see-more">
+                            <a href="https://youtu.be/WUPOizIaicQ">
+                                See more
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="social-media-btns">
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-app-store"></i>
+                                    </div>
+                                    <div class="sm-btn">
+                                        <i class="fa-brands fa-node-js"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="https://youtu.be/WUPOizIaicQ">
+                                    <input style="margin-top: 30px; width: 100%;" class="my-download-btn" type="button" value="Visit">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12" style="text-align: center; margin-top: 100px; color: #5b80e7; font-size: 28px; font-weight: 600; margin-bottom: 50px;">
+                Timeline
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <a href="#" class="timeline">
+                            <div style="border: 3px solid #5b80e7;" class="timeline-icon">
+                                <i style="background: #5b80e7;" class="fa fa-globe"></i></div>
+                            <div class="timeline-content">
+                                <h3 style="color: #5b80e7;" class="title">
+                                    C3 AI
+                                    <br>
+                                    Software Engineer Intern, San Francisco
+                                    <br>
+                                    (2022)</h3>
+                                <p class="description">
+                                    A 3 month Internship as a Software Engineer working on building an application dealing with ESG (Enviornmental, Social and Governance) 
+                                    <br>
+                                    Technologies used: React, TypeScript, C3 AI develpment platform
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div style="border: 3px solid #5b80e7" class="timeline-icon">
+                                <i style="background: #5b80e7;" class="fa-solid fa-building-columns"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title" style="color: #5b80e7;">University of Southern California, Los Angeles, CA
+                                <br>    
+                                (2021)</h3>
+                                <p class="description">
+                                    Currently a graduate student at University of Southern California, completing my Masters of Science, Computer Science.
+                                    <br>
+                                    Courses: Algorithms, Database management, Game development, Web development
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div style="border: 3px solid #5b80e7;" class="timeline-icon">
+                                <i style="background: #5b80e7;" class="fa fa-globe"></i></div>
+                            <div class="timeline-content">
+                                <h3 style="color: #5b80e7;" class="title">
+                                    Stratzy
+                                    <br>
+                                    Web developer Intern, India
+                                    <br>
+                                    (2019)</h3>
+                                <p class="description">
+                                    A 3 month internship where I got a chance to design the schema for maintaining and storing strategies used for algorithmic trading and develop an e-commerce portal for their customers.
+                                    <br>
+                                    Technologies used: Mongoose for MongoDB, ReactJS and Express.JS
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><i class="fa-solid fa-book"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Dwarkadas J. Sanghvi College of Engineering, Mumbai, India
+                                <br>
+                                    (2017)</h3>
+                                <p class="description">
+                                    Completed Bachelor of Computer Engineering with Distinction (CGPA: 9.56/10)
+                                    <br>
+                                    Relevant Courses: Data Structures, Analysis of Algorithms, Machine Learning, Artificial Intelligence, Big Data Analytics
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-me">
+                <div class="my-card-blue">
+                    <div class="row justify-content-center">
+                        <div style="font-size: 2rem; text-align: center;" class="col-sm-12">
+                            Get in touch
+                        </div>
+                        <div style="text-align: center; margin-top: 20px" class="col-sm-12">
+                            I'm seeking out opportunities to work with companies / agencies. I want to bring my innovative thinking to the table where I can learn and solve real business-problems.
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="mailto:sbagwe@usc.edu">
+                                <button class="my-download-btn-lower">
+                                    Say Hello!
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="my-footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div style="text-align: center;" class="col-sm-12">
+                    <h1 style="line-height: 140%; font-weight: 800; letter-spacing: 1px;">Sagar Bagwe</h1>
+                    <div style="justify-content: center;" class="social-media-btns">
+                        <a href="https://github.com/sagarbagwe6699">
+                            <div class="sm-btn">
+                                <i style="color: #2125296b;" class="fa-brands fa-github"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sagar-bagwe">
+                            <div class="sm-btn">
+                                <i style="color: #2125296b;" class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </a>
+                        <a href="mailto:sbagwe@usc.edu">
+                            <div class="sm-btn">
+                                <i style="color: #2125296b;" class="fa-solid fa-at"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div style="color: #2125296b;">© 2021 Sagar Mahesh Bagwe. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
 </html>
