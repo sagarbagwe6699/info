@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    justify-content: space-between;
+    background-color: #461d58;
+}
+
+.nav-logo {
+    height: 5em;
+}
+
+.outter {
+    background-image: url(./bg.png);
+    height: 90vh;
+}
+
+.cookie {
+    background-image: url(./chocolateChunk.13421436.png);
+    position: absolute;
+    bottom: -150px;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: 52% 350px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.cm {
+    max-width: 300px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Congenial-Black';
+    src: url("./Congenial-Black.6901a341.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Sofia-Pro-Bold';
+    src: url("./Sofia-Pro-Bold.08628dfb.otf") format("opentype");
+}
+
+h3 {
+    font-family: 'Congenial-Black';
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.timer {
+    font-family: 'Congenial-Black';
+    color: #fff;
+    font-size: 80px;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Congenial-Black';
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.btn {
+    border: 1.5px solid #ba935a;
+    background-color: #f3c244;
+    width: 110px!important;
+    height: 40px;
+    box-shadow: 2px 3px 0 1px #bc945a;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    color: #1a0021;
+    font-family: 'Sofia-Pro-Bold';
+    font-weight: 700;
+}
+
+.moon {
+    width: 80%;
+}
+
+.timer-div {
+    text-align: right;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+}
