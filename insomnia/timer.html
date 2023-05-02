@@ -75,6 +75,7 @@
       document.getElementById('date').innerHTML = today
 
       date = new Date;
+      date.setMinutes(date.getMinutes() + 5);
       var hours = date.getHours();
       var minutes = date.getMinutes();
       var ampm = hours >= 12 ? 'PM' : 'AM';
