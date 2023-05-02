@@ -81,6 +81,10 @@ p {
     font-weight: 700;
 }
 
+.btn:hover {
+    background: #f3c244;
+}
+
 .moon {
     width: 80%;
 }
@@ -91,3 +95,35 @@ p {
     top: 30vh;
     right: 10vw;
 }
+
+.loading {
+    display: none;
+    justify-content: center;
+    align-items:center;
+    transition: 0.5s;
+    /* position:fixed; */
+    /* top:0; */
+    width:50px;
+    height:25px;
+  }
+  
+  .loading::after {
+    content: "";
+    width: 27.6px;
+    height: 27.6px;
+    border: 6px solid #dcaf3c;
+    border-top-color: #bc9459;
+    border-radius: 50%;
+    animation: loading 1s linear infinite;
+  }
+  
+  @keyframes loading {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  
+  .content {
+    transition: 0.5s;
+    opacity:0;
+  }
